@@ -1,0 +1,170 @@
+{
+    "livros": [
+        {
+            "id": 1,
+            "titulo": "Arquitetura e Organização de Computadores",
+            "autor": "William Stallings.",
+            "editora": "Pearson Universidades",
+            "publicacao": "15/19/2017",
+            "preco": 180.5,
+            "capa": "imagens/capa1.jpg"
+        },
+        {
+            "id": 2,
+            "titulo": "JavaScript: O Guia Definitivo",
+            "autor": "David Flanagan.",
+            "editora": "Bookman",
+            "publicacao": "29/09/2012",
+            "preco": 100.5,
+            "capa": "imagens/capa2.jpg"
+        },
+        {
+            "id": 3,
+            "titulo": "Redes de Computadores e a Internet: Uma Abordagem Top-Down",
+            "autor": "Jim Kurose .",
+            "editora": "Pearson Universidades",
+            "publicacao": "21/11/2017",
+            "preco": 120.5,
+            "capa": "imagens/capa3.jpg"
+        },
+        {
+            "id": 4,
+            "titulo": "As Seis Lições",
+            "autor": "Ludwig Von Mises.",
+            "editora": "LVM Editora",
+            "publicacao": "16/04/2018",
+            "preco": 14.5,
+            "capa": "imagens/capa4.jpg"
+        },
+        {
+            "id": 5,
+            "titulo": "1984",
+            "autor": "George Orwell.",
+            "editora": "Tricaju",
+            "publicacao": "01/03/2021",
+            "preco": 5.5,
+            "capa": "imagens/capa5.jpg"
+        },
+        {
+            "id": 6,
+            "titulo": "Princípios de telecomunicações: Teoria e prática",
+            "autor": " Júlio César de Oliveira Medeiros.",
+            "editora": "Saraiva",
+            "publicacao": "30/07/2009",
+            "preco": 5.5,
+            "capa": "imagens/capa6.jpg"
+        }
+    ],
+    "categorias": [
+        {
+            "id": 1,
+            "categoria": "Computação, Informática"
+        },
+        {
+            "id": 3,
+            "categoria": "Política,Filosofia e Ciências Sociais"
+        },
+        {
+            "id": 4,
+            "categoria": "Engenharia"
+        },
+        {
+            "id": 5,
+            "categoria": "Literatura"
+        }
+    ],
+    "clientes": [
+        {
+            "id": 1,
+            "nome": "João",
+            "cpf": "123.456.789-0",
+            "telefone": 21911111111,
+            "email": "joao@gmail.com"
+        },
+        {
+            "id": 2,
+            "nome": "Fellipe",
+            "cpf": "132.456.789-0",
+            "telefone": 21922222222,
+            "email": "Fellipe@outlook.com"
+        },
+        {
+            "id": 3,
+            "nome": "Deyse",
+            "cpf": "132.654.789-0",
+            "telefone": 21933333333,
+            "email": "deyse@hotmail.com"
+        },
+        {
+            "id": 4,
+            "nome": "Larissa",
+            "cpf": "132.654.987-0",
+            "telefone": 21944444444,
+            "email": "larissa@gmail.com"
+        },
+        {
+            "id": 5,
+            "nome": "Gabriel",
+            "cpf": "321.654.987-0",
+            "telefone": 21955555555,
+            "email": "gabriel@gmail.com"
+        },
+        {
+            "id": 6,
+            "nome": "Douglas",
+            "cpf": "321.546.987-0",
+            "telefone": 21966666666,
+            "email": "douglas@outlook.com"
+        }
+    ],
+    "aluguel": [
+        {
+            "id": 1,
+            "livro": "Arquitetura e Organização de Computadores",
+            "nome": "João",
+            "data de aluguel": "16/11/2022",
+            "forma de pagamento": "cartão de crédito",
+            "data de entrega": "30/11/2022"
+        },
+        {
+            "id": 2,
+            "livro": "JavaScript: O Guia Definitivo",
+            "nome": "Fellipe",
+            "data de aluguel": "12/10/2022",
+            "forma de pagamento": "dinheiro",
+            "data de entrega": "26/11/2022"
+        },
+        {
+            "id": 3,
+            "livro": "Redes de Computadores e a Internet: Uma Abordagem Top-Down",
+            "nome": "Deyse",
+            "data de aluguel": "14/07/2022",
+            "forma de pagamento": "cartão de crédito",
+            "data de entrega": "28/07/2022"
+        },
+        {
+            "id": 4,
+            "livro": "As Seis Lições",
+            "nome": "Gabriel",
+            "data de aluguel": "12/10/2022",
+            "forma de pagamento": "cartão de crédito",
+            "data de entrega": "26/10/2022"
+        },
+        {
+            "id": 5,
+            "livro": "1984",
+            "nome": "Larissa",
+            "data de aluguel": "13/02/2022",
+            "forma de pagamento": "dinheiro",
+            "data de entrega": "27/02/2022"
+        },
+        {
+            "id": 6,
+            "livro": "Princípios de telecomunicações: Teoria e prática",
+            "nome": "Douglas",
+            "data de aluguel": "20/05/2022",
+            "forma de pagamento": "dinheiro",
+            "data de entrega": "04/06/2022"
+        }
+    ]
+}
